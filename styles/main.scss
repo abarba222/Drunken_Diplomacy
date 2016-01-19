@@ -524,6 +524,7 @@ header{
 
 .playerWins{
   margin-left:135px;
+  margin-bottom:100px;
 }
 
 .winner-name{
@@ -531,6 +532,7 @@ header{
   background-color: yellow;
   font-weight:bold;
   padding:3px;
+  font-size:30px;
   //border: 3px solid black;
 }
 
@@ -584,6 +586,7 @@ header{
 
 .playerLoses{
   margin-left:135px;
+  margin-bottom:100px;
 }
 
 .loser-name{
@@ -591,7 +594,7 @@ header{
   background-color: red;
   font-weight:bold;
   padding:3px;
-  color:black;
+  font-size:30px;
   //border: 3px solid black;
 }
 
