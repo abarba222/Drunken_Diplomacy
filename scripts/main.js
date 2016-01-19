@@ -114,7 +114,7 @@ var fade_out;
            buddyMoney = buddy.money;
            console.log(buddy);
           // console.log(image);
-          // console.log(buddy.image);
+           console.log(buddy.image);
         }else alert('Select a champion!');
 
 //Call Player Buys
@@ -332,4 +332,4 @@ var fade_out;
 
 
     });
-})();  
+})();
