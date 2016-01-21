@@ -612,13 +612,17 @@ header{
     background-color:rgba(0, 30 , 100, .9);
   }
 
+  .title{
+    font-size:26px;
+  }
+
   .instructions{
-    display:inline-block;
+    display:block;
     color:white;
     padding-left:20px;
     padding-top:30px;
     padding-bottom:10px;
-    width:45%;
+    width:98%;
   }
 
   .go-to-bar{
@@ -629,7 +633,7 @@ header{
   }
 
   .display{
-    display:inline-block;
+    display:block;
     width:50%;
   }
 
