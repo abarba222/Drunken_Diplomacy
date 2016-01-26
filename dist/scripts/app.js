@@ -273,7 +273,7 @@ window.Game = window.Game || {};
             setTimeout(function () {
               Game.router.navigate('win', { trigger: true });
               $('.playerWins').append('<img src="' + image + '" style="height:auto; width:auto; max-width:190px; max-height:190px;">');
-              $('.winner-name').append('<p>' + player.type + '</p>');
+              $('.winner-name').append('<p class="champ-name">' + player.type + '</p>');
             }, 1000);
             //alert(leaderStats[worldLeader].type + "has passed out");
           } else {
@@ -285,7 +285,7 @@ window.Game = window.Game || {};
             setTimeout(function () {
               Game.router.navigate('lose', { trigger: true });
               $('.playerLoses').append('<img src="' + image + '" style="height:auto; width:auto; max-width:190px; max-height:190px;">');
-              $('.loser-name').append('<p>' + player.type + '</p>');
+              $('.loser-name').append('<p class="champ-name">' + player.type + '</p>');
             }, 1000);
           } else {
             drinkLoop();

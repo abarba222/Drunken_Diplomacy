@@ -114,7 +114,7 @@ var fade_out;
            buddyMoney = buddy.money;
            console.log(buddy);
           // console.log(image);
-           console.log(buddy.image);
+          // console.log(buddy.image);
         }else alert('Select a champion!');
 
 //Call Player Buys
@@ -263,7 +263,7 @@ var fade_out;
                setTimeout(function() {
                  Game.router.navigate('win', {trigger: true});
                  $('.playerWins').append('<img src="'+image+'" style="height:auto; width:auto; max-width:190px; max-height:190px;">');
-                 $('.winner-name').append('<p>' + player.type + '</p>');
+                 $('.winner-name').append('<p class="champ-name">' + player.type + '</p>');
                }, 1000);
                //alert(leaderStats[worldLeader].type + "has passed out");
              }else {drinkLoop();}
@@ -273,7 +273,7 @@ var fade_out;
                setTimeout(function() {
                  Game.router.navigate('lose', {trigger: true});
                  $('.playerLoses').append('<img src="'+image+'" style="height:auto; width:auto; max-width:190px; max-height:190px;">');
-                 $('.loser-name').append('<p>' + player.type + '</p>');
+                 $('.loser-name').append('<p class="champ-name">' + player.type + '</p>');
                }, 1000);
              }else {drinkLoop();}
            }
@@ -302,8 +302,14 @@ var fade_out;
 
       $(document).on('click', '.rematch', function(e) {
         e.preventDefault();
-        location.reload();
-        Game.router.navigate('', {trigger: true});
+        name = player.type;
+        buddy = buddy;
+        playerSobriety = player.sobriety;
+        playerMoney = player.money;
+        buddySobriety = buddy.sobriety;
+        buddyMoney = buddy.money;
+        isDrinking = true;
+        Game.router.navigate('play', {trigger: true});
         });
 
 
@@ -318,7 +324,9 @@ var fade_out;
 
       $(document).on('click', '.new-game', function(e) {
         e.preventDefault();
-        location.reload();
+        player = '';
+        buddy = '';
+        document.clear();
         Game.router.navigate('', {trigger: true});
       });
 
