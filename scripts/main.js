@@ -302,14 +302,8 @@ var fade_out;
 
       $(document).on('click', '.rematch', function(e) {
         e.preventDefault();
-        name = player.type;
-        buddy = buddy;
-        playerSobriety = player.sobriety;
-        playerMoney = player.money;
-        buddySobriety = buddy.sobriety;
-        buddyMoney = buddy.money;
-        isDrinking = true;
-        Game.router.navigate('play', {trigger: true});
+        location.reload();
+        Game.router.navigate('', {trigger: true});
         });
 
 
@@ -324,9 +318,7 @@ var fade_out;
 
       $(document).on('click', '.new-game', function(e) {
         e.preventDefault();
-        player = '';
-        buddy = '';
-        document.clear();
+        location.reload();
         Game.router.navigate('', {trigger: true});
       });
 
