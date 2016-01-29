@@ -54,16 +54,16 @@ var fade_out;
 
 
       var leaderStats = new Array([]);
-          leaderStats[0] = new worldLeader("Cameron", 140, 150, "../images/characters/Cameron.png");
-          leaderStats[1] = new worldLeader("Putin", 150, 140, "../images/characters/Putin.png");
-          leaderStats[2] = new worldLeader("Hollande", 130, 160, "../images/characters/Hollande.png");
-          leaderStats[3] = new worldLeader("Merkel", 120, 170, "../images/characters/Merkel.png");
-          leaderStats[4] = new worldLeader("Obama", 100, 190, "../images/characters/Obama.png");
-          leaderStats[5] = new worldLeader("Al-Assad", 170, 120, "../images/characters/Al-Assad.png");
-          leaderStats[6] = new worldLeader("Jong-un", 190, 100, "../images/characters/Jong-un.png");
-          leaderStats[7] = new worldLeader("Castro", 160, 130, "../images/characters/Castro.png");
-          leaderStats[8] = new worldLeader("Mugabe", 180, 110, "../images/characters/Mugabe.png");
-          leaderStats[9] = new worldLeader("Abbott", 110, 180, "../images/characters/Abbott.png");
+          leaderStats[0] = new worldLeader("Cameron", 140, 150, "http://abarba222.github.io/drunken_diplomacy/images/characters/Cameron.png");
+          leaderStats[1] = new worldLeader("Putin", 150, 140, "http://abarba222.github.io/drunken_diplomacy/images/characters/Putin.png");
+          leaderStats[2] = new worldLeader("Hollande", 130, 160, "http://abarba222.github.io/drunken_diplomacy/images/characters/Hollande.png");
+          leaderStats[3] = new worldLeader("Merkel", 120, 170, "http://abarba222.github.io/drunken_diplomacy/images/characters/Merkel.png");
+          leaderStats[4] = new worldLeader("Obama", 100, 190, "http://abarba222.github.io/drunken_diplomacy/images/characters/Obama.png");
+          leaderStats[5] = new worldLeader("Al-Assad", 170, 120, "http://abarba222.github.io/drunken_diplomacy/images/characters/Al-Assad.png");
+          leaderStats[6] = new worldLeader("Jong-un", 190, 100, "http://abarba222.github.io/drunken_diplomacy/images/characters/Jong-un.png");
+          leaderStats[7] = new worldLeader("Castro", 160, 130, "http://abarba222.github.io/drunken_diplomacy/images/characters/Castro.png");
+          leaderStats[8] = new worldLeader("Mugabe", 180, 110, "http://abarba222.github.io/drunken_diplomacy/images/characters/Mugabe.png");
+          leaderStats[9] = new worldLeader("Abbott", 110, 180, "http://abarba222.github.io/drunken_diplomacy/images/characters/Abbott.png");
 
 //Moves Array
 
