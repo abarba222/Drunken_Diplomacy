@@ -145,7 +145,7 @@ var fade_out;
                 playerTurn = true;
                 drinkLoop();
               }else {
-                alert(buddy.name + " passed out!");
+                alert(buddy.type + " passed out!");
                 buddyOut();
                 console.log("Get more money!");
               }
@@ -198,7 +198,7 @@ var fade_out;
 
               //drinkLoop();
             }else {
-              alert(player.name + " passed out!");
+              alert(name + " passed out!");
               playerOut();
             }
         }
@@ -221,7 +221,6 @@ var fade_out;
           var percentPlayerSobriety = Number(newPlayerSobriety) / Number(playerSobriety) + "%";
           $('.champ-health-bar').css({"width": playerSobriety});
           $('.champSobrietyNumber').html("<p>" + playerSobriety + "</p>");
-          //console.log(percentPlayerSobriety);
         }
 
         function displayBuddyMoney() {
